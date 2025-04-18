@@ -2,10 +2,6 @@ alibaba:
   label: Alibaba 阿里巴巴
   permalink: /alibaba
 
-china:
-  label: China 中国
-  permalink: /china
-
 law:
   label: Law 法律
   permalink: /law
@@ -17,3 +13,7 @@ society:
 transgender:
   label: Transgender 跨性别
   permalink: /transgender
+
+zh:
+  label: Content in Chinese 中文内容
+  permalink: /zh
