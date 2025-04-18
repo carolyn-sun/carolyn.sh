@@ -55,7 +55,7 @@ function Footer(): ReactNode {
                         </Link>
                         进行许可。
                         <br />
-                        Copyright © 2025 Carolyn Sun
+                        Copyright &copy; {new Date().getFullYear()} Carolyn Sun
                     </p>
                 </small>
             </div>
