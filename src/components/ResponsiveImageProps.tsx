@@ -18,7 +18,7 @@ export default function ResponsiveImage({
     const resolvedSrc = typeof src === "string" ? src : src.default;
 
     return (
-        <figure className="flex flex-col items-center my-6">
+        <figure className="flex flex-col items-center my-6 rounded-[0.4rem]">
             <img
                 src={resolvedSrc}
                 alt={alt}

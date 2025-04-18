@@ -16,10 +16,11 @@ export default function ProfileCard({ avatarSrc, avatarAlt, name, title, descrip
 
     return (
         <Wrapper
+            data-slot='wrapper'
             href={link}
             target={link ? "_blank" : undefined}
             rel={link ? "noopener noreferrer" : undefined}
-            className={`flex flex-wrap items-center gap-4 ${link ? 'cursor-pointer hover:bg-gray-100 p-3 rounded-md transition' : ''}`}
+            className={`flex flex-wrap items-center gap-4 ${link ? 'cursor-pointer p-3 rounded-md transition' : ''}`}
         >
             <div>
                 <ResponsiveImage src={avatarSrc} alt={avatarAlt} width="96px" />
