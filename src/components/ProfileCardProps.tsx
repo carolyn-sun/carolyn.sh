@@ -6,11 +6,12 @@ interface ProfileCardProps {
     avatarSrc: string;
     avatarAlt: string;
     name: string;
-    description: string;
+    title?: string;
+    description?: string;
     link?: string;
 }
 
-export default function ProfileCard({ avatarSrc, avatarAlt, name, description, link }: ProfileCardProps) {
+export default function ProfileCard({ avatarSrc, avatarAlt, name, title, description, link }: ProfileCardProps) {
     const Wrapper: React.ElementType = link ? 'a' : 'div';
 
     return (
@@ -24,14 +25,14 @@ export default function ProfileCard({ avatarSrc, avatarAlt, name, description, l
                 <ResponsiveImage src={avatarSrc} alt={avatarAlt} width="96px" />
             </div>
             <div className="flex flex-col justify-center text-left">
-                <h2 className="text-lg font-bold flex items-center gap-1">
+                <h3 className="text-lg font-bold flex items-center gap-1 !mb-2">
                     {name}
-
                     {link && (
                         <ExternalLink/>
                     )}
-                </h2>
-                <p className="text-sm">{description}</p>
+                </h3>
+                <h4 className="text-sm !mb-0">{title}</h4>
+                <p className="text-sm !mb-0">{description}</p>
             </div>
         </Wrapper>
     );
