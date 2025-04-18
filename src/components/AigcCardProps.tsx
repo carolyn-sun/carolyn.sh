@@ -7,7 +7,7 @@ interface AigcCardProps {
 export default function AigcCard({lang}: AigcCardProps) {
     return (
         <>
-            <p className="flex items-center gap-2 italic">
+            <p className="flex items-center gap-2">
                 <BotMessageSquare />
                 部分内容由生成式人工智能提供。
             </p>
