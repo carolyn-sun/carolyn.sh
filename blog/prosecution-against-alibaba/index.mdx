@@ -1,0 +1,77 @@
+import AigcCard from "../../src/components/AigcCardProps";
+import ResponsiveImage from "../../src/components/ResponsiveImageProps";
+
+# 一次对阿里 (闲鱼) 的起诉
+
+这篇文章记录了我在 2025 年 3 月对阿里巴巴旗下公司闲鱼的一次诉讼经历。事情起因是，我在 2024 年 11 月依法完成了身份证性别的变更，根据中国身份证号码的编码规则，性别变更后我的身份证号码也随之变更。获得新的身份证件后，我需要在银行、社保及一些实名制网络平台上同步更新身份信息。大多数平台均可顺利办理，唯独阿里旗下的闲鱼 App 拒绝这一请求。在多次联系客服无果的情况下，我被迫提起了诉讼。
+
+This article documents my legal proceedings against Xianyu, a subsidiary of Alibaba, in March 2025. The case originated from my lawful change of gender on my national ID in November 2024. According to China’s ID number ruls, a change in gender also results in a change of ID number. After obtaining my new ID, I needed to update my identity information across various systems, including bank accounts, social security, and real-name-based online platforms. Most platforms processed the update without issue; however, Alibaba’s Xianyu app refused my request. After multiple unsuccessful attempts to resolve the matter through customer service, I was left with no choice but to initiate legal action.
+
+<!-- truncate -->
+
+<AigcCard/>
+
+## 我取得了新的身份证件
+
+2024 年 11 月，我在南京市公安局，依照中国法律规定，完成了性别变更，并获得了新的女性身份证件。根据中国的[身份证号码标准 (GB 11643-1999)](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=080D6FBF2BB468F9007657F26D60013E)，身份证号码的第 17 位数字是性别标识，奇数为男性，偶数为女性，因此我的身份证号码也发生了变更。
+
+## 首次联系闲鱼客服
+
+当月，我在闲鱼 App 上首次联系客服，询问如何更新身份信息。次日，我收到了客服短信回复：
+
+> 【闲鱼】亲爱的闲鱼用户，关于您咨询的问题，闲鱼已收到，建议您在闲鱼APP内点击【我的】--右上角【设置】--点击【账号与安全】--点击【用户身份信息】，进入认证页面，点击下方【更新本人实名信息】即可，给您带来的不便深感抱歉，感谢您对闲鱼的支持与信任，祝您生活愉快！
+
+根据指引，我确实找到了「更新本人实名信息」的入口，但页面仅支持修改姓名，不支持身份证号码的更新。我再次联系客服，对方回复平台目前「不支持更新身份证号码」。
+
+## 与「个人信息保护专职部门」联系
+
+### 更新个人信息的法定权利
+
+我查阅了闲鱼的《隐私政策》，明确写有用户享有「查阅、更正和补充个人信息」的权利：
+
+> 您可以通过以下方式查阅和管理您的信息，我们会在符合法律法规要求的情形下响应您的请求：（一）查阅、更正和补充您有权通过以下方式查阅、更正和补充您的信息：1、登录闲⻥客户端，进入“我的—设置—个人资料设置”；2、登录闲⻥客户端，选择“我的—帮助与客服”。
+
+既然有明文政策支持，我找到了其「个人信息保护专职部门」的邮箱地址，并发送了邮件，说明问题并附上客服回应。**很遗憾，直到后来我起诉立案 (60 个工作日后)，我都没有收到任何回复。**
+
+<ResponsiveImage
+    src={require("./mail-to-pipwg.jpg")}
+    alt="我发送给阿里「个人信息保护专职部门」的邮件内容"
+    caption="我发送给阿里「个人信息保护专职部门」的邮件内容"
+/>
+
+## 二次联系客服
+
+进入 2025 年后，我再次联系客服，过程几乎与上次相同。初步收到与此前一模一样的短信。我随后改用电话沟通，并按客服要求上传了公安部门提供的相关材料。客服承诺会处理，但几天后我又收到了那条模板式短信，问题依旧没有解决。
+
+## 提起诉讼
+
+我原以为该案件适用于《个人信息保护法》，因此初始案由写为「个人信息保护侵权」。法院审核后建议我更改案由为「网络服务合同纠纷」。我修改案由并重新提交，随后法院正式立案。
+
+<ResponsiveImage
+    src={require("./notice.jpg")}
+    alt="杭州互联网法院受理案件通知书"
+    caption="杭州互联网法院受理案件通知书"
+/>
+
+## 调解成功
+
+正如预期，由于事实清晰、权利明确，并无争议焦点，案件无需开庭。在法院调解下，阿里方面接受了我的请求，并于 2025 年 3 月完成了身份信息的变更。
+
+## 评价
+
+- **技术脱节** 闲鱼 App 界面确实提供了「更新实名信息」的入口，但这一功能仅支持姓名修改而非身份证号码变更。而根据国家标准，性别变更后身份证号码是合法变动的一部分。平台未就此场景作出系统适配，属于典型的流程断点。
+- **内部响应机制薄弱** 联系所谓「个人信息保护专职部门」后仍然没有得到回复，说明其内部响应机制薄弱。即使是法律和用户协议规定的用户权利，闲鱼也未能及时响应。
+- **法律意识不足** 阿里系平台中，支付宝早已支持用户在 App 内上传公安开具的文件以自助更改身份证信息，说明在技术上并不难以实现，而是具体业务线的合规意识和执行标准不同步。
+- **责任转嫁倾向** 整个过程中客服基本是「照本宣科」，即使提交了正式材料，也未给出实际处理结果，最终仍需诉诸司法才得以解决。
+
+## 其他
+
+**截至本文发布（2025 年 4 月），闲鱼或淘宝 App 依然没有上线身份证号码更新的自助功能，用户如需变更，仍需联系客服，或在必要时通过法律途径解决。**
+
+<ResponsiveImage
+    src={require("./still-not-support.jpg")}
+    alt="闲鱼 App 更新实名信息的页面"
+    caption="闲鱼 App 更新实名信息的页面，仍然仅支持更新姓名变更"
+/>
+
+**EOF**

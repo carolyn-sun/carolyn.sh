@@ -1,0 +1,21 @@
+.footer {
+    background-color: var(--footer-background-color);
+    color: var(--footer-text-color);
+    border-top: 1px solid var(--footer-border-color);
+    font-size: 0.75rem;
+    line-height: 1.75;
+}
+
+.footer a {
+    color: var(--footer-link-color);
+    text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+.footer a:hover {
+    color: var(--footer-link-hover-color);
+}
+
+.footer small {
+    color: var(--footer-text-color);
+}

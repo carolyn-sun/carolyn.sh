@@ -1,0 +1,53 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #d05e88;
+  --ifm-color-primary-dark: #ba4f7a;
+  --ifm-color-primary-darker: #a5486c;
+  --ifm-color-primary-darkest: #8f3c5e;
+  --ifm-color-primary-light: #da7099;
+  --ifm-color-primary-lighter: #e181ad;
+  --ifm-color-primary-lightest: #e892b9;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --footer-backgroud-color: #F5F5F7FF;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #d05e88;
+  --ifm-color-primary-dark: #ba4f7a;
+  --ifm-color-primary-darker: #a5486c;
+  --ifm-color-primary-darkest: #8f3c5e;
+  --ifm-color-primary-light: #da7099;
+  --ifm-color-primary-lighter: #e181ad;
+  --ifm-color-primary-lightest: #e892b9;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+  --footer-background-color: #1e1b1e;
+  --footer-text-color: #ededed;
+  --footer-link-color: #e97ca4;
+  --footer-link-hover-color: #ffd0e2;
+  --footer-border-color: #3a2d3f66;
+}
+
+/*for span with a data-slot="avatar"*/
+[data-slot='avatar'] {
+    border-radius: 0.75rem;
+}
+
+ul {
+  list-style: '- ';
+}
+
+ol {
+  list-style: decimal;
+}
+
