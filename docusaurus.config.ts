@@ -56,6 +56,8 @@ const config: Config = {
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
           exclude: ['**/hide/**'],
+          blogSidebarTitle: 'All',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: './src/css/custom.css',
