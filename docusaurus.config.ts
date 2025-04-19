@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Carolyn Sun',
   tagline: '',
-  favicon: undefined,
+  favicon: "img/favicon.ico",
 
   // Set the production url of your site here
   url: 'https://carolyn.sh',

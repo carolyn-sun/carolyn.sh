@@ -2,7 +2,7 @@
 hide_table_of_contents: true
 ---
 
-# Privacy Policy
+# Privacy Policy 隐私声明
 
 ## English
 

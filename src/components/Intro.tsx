@@ -6,8 +6,8 @@ export const Intro = () => {
       defaultValue="English"
       values={[
           { label: 'English', value: 'English' },
-          { label: '简体中文', value: '简体中文' },
-          { label: '繁體中文 (粵語)', value: '繁體中文 (粵語)' },
+          { label: '中文', value: '中文' },
+          { label: '粵語', value: '粵語' },
       ]}
       className="w-full"
   >
@@ -19,7 +19,7 @@ export const Intro = () => {
           </ul>
       </TabItem>
 
-      <TabItem value="简体中文">
+      <TabItem value="中文">
           <ul className="list-disc list-inside text-muted-foreground mt-4 space-y-1">
               <li>这是我的个人网站，主要分享我的技术项目、文章观点与生活点滴。</li>
               <li>我是跨性别女生，请使用「她」来指代我。</li>
@@ -27,7 +27,7 @@ export const Intro = () => {
           </ul>
       </TabItem>
 
-      <TabItem value="繁體中文 (粵語)">
+      <TabItem value="粵語">
           <ul className="list-disc list-inside text-muted-foreground mt-4 space-y-1">
               <li>呢度係我嘅個人網站，記錄住我嘅思想、創作、程式同日常生活。</li>
               <li>我係跨性別女仔，當我係女仔就得啦。</li>
