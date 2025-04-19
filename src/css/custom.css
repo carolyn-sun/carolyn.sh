@@ -64,3 +64,6 @@ a[data-slot='wrapper']:hover {
   background-color: var(--wrapper-background-color-hover);
 }
 
+.breadcrumbs__link > svg {
+  display: inline-block;
+}
