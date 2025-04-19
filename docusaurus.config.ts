@@ -80,6 +80,7 @@ const config: Config = {
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/friends', label: 'Friends', position: 'left'},
         {to: '/notes', label: 'Notes', position: 'left'},
+        {to: '/privacy', label: 'Privacy', position: 'right'},
       ],
     },
     footer: {
