@@ -1,5 +1,3 @@
 export default function () {
-  return <section>
-      **EOF**
-  </section>
+  return <strong>EOF</strong>
 }
