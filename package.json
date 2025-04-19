@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "prebuild": "node src/scripts/fetch-friend-avatars.js",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
+    "prestart": "node src/scripts/fetch-friend-avatars.js",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",

@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Huc",
+    "title": "Huc's Blog",
+    "description": "有点肌肉的工科男",
+    "avatarUrl": "https://huc-blog.vercel.app/images/logo-removebg.png",
+    "avatarFile": "huc.png",
+    "link": "https://huc-blog.vercel.app/",
+    "avatarAlt": "Huc"
+  },
+  {
+    "name": "苏心贤",
+    "title": "苏心贤的 🐟 缸",
+    "description": "致力于探索认知与 LLM 的交叉点。",
+    "avatarUrl": "https://ojou.art/wp-content/uploads/2025/03/51740642670_.pic_-1-150x150.jpeg",
+    "avatarFile": "suxinxian.jpg",
+    "link": "https://ojou.art/",
+    "avatarAlt": "苏心贤"
+  },
+  {
+    "name": "L7",
+    "title": "L7Audiolab",
+    "description": "To Be Is To Be Measured",
+    "avatarUrl": "https://cdn.l7audiolab.com/wp-content/uploads/2021/07/%E7%AB%99%E9%95%BF-300x300.png",
+    "avatarFile": "l7.png",
+    "link": "https://www.l7audiolab.com/",
+    "avatarAlt": "L7"
+  }
+]
